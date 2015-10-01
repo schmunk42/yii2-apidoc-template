@@ -21,8 +21,8 @@ class ApiRenderer extends \yii\apidoc\templates\html\ApiRenderer
 {
     use RendererTrait;
 
-    public $layout = '@vendor/schmunk42/apidoc/templates/phundament/layouts/api.php';
-    public $indexView = '@vendor/schmunk42/apidoc/templates/phundament/views/index.php';
+    public $layout = '@schmunk42/apidoc/templates/phundament/layouts/api.php';
+    public $indexView = '@schmunk42/apidoc/templates/phundament/views/index.php';
 
 
     /**

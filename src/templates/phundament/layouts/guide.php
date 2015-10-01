@@ -16,7 +16,7 @@ if (isset($currentFile)) {
     }
 }
 
-$this->beginContent('@vendor/schmunk42/apidoc/templates/phundament/layouts/main.php', isset($guideHeadline) ? ['guideHeadline' => $guideHeadline] : []); ?>
+$this->beginContent('@schmunk42/apidoc/templates/phundament/layouts/main.php', isset($guideHeadline) ? ['guideHeadline' => $guideHeadline] : []); ?>
 
 <div class="row">
     <div class="col-md-2">

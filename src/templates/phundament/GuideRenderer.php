@@ -21,7 +21,7 @@ class GuideRenderer extends \yii\apidoc\templates\html\GuideRenderer
 {
     use RendererTrait;
 
-    public $layout = '@vendor/schmunk42/apidoc/templates/phundament/layouts/guide.php';
+    public $layout = '@schmunk42/apidoc/templates/phundament/layouts/guide.php';
 
 
     /**

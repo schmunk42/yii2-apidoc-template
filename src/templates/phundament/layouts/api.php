@@ -11,7 +11,7 @@ use yii\helpers\StringHelper;
 /** @var $renderer ApiRenderer */
 $renderer = $this->context;
 
-$this->beginContent('@vendor/schmunk42/apidoc/templates/phundament/layouts/main.php', isset($type) ? ['type' => $type] : []); ?>
+$this->beginContent('@schmunk42/apidoc/templates/phundament/layouts/main.php', isset($type) ? ['type' => $type] : []); ?>
 
 <div class="row">
     <div class="col-md-3 text-small">

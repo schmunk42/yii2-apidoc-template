@@ -17,7 +17,7 @@ use yii\web\View;
  */
 class AssetBundle extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@vendor/schmunk42/apidoc/templates/phundament/assets/css';
+    public $sourcePath = '@schmunk42/apidoc/templates/phundament/assets/css';
     public $css = [
 //		'api.css',
         'style.css',
