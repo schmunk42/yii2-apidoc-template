@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace app\templates\apidoc\assets;
+namespace schmunk42\apidoc\templates\phundament\assets;
 
 use yii\web\View;
 
@@ -17,7 +17,7 @@ use yii\web\View;
  */
 class AssetBundle extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@app/templates/apidoc/assets/css';
+    public $sourcePath = '@vendor/schmunk42/apidoc/templates/phundament/assets/css';
     public $css = [
 //		'api.css',
         'style.css',

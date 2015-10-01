@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace app\templates\apidoc;
+namespace schmunk42\apidoc\templates\phundament;
 
 use Yii;
 use yii\apidoc\helpers\ApiIndexer;
@@ -21,8 +21,8 @@ class ApiRenderer extends \yii\apidoc\templates\html\ApiRenderer
 {
     use RendererTrait;
 
-    public $layout = '@app/templates/apidoc/layouts/api.php';
-    public $indexView = '@app/templates/apidoc/views/index.php';
+    public $layout = '@vendor/schmunk42/apidoc/templates/phundament/layouts/api.php';
+    public $indexView = '@vendor/schmunk42/apidoc/templates/phundament/views/index.php';
 
 
     /**

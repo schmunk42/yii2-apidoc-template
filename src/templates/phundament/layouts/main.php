@@ -7,7 +7,7 @@ use yii\helpers\StringHelper;
 
 /* @var $this yii\web\View */
 
-app\templates\apidoc\assets\AssetBundle::register($this);
+schmunk42\apidoc\templates\phundament\assets\AssetBundle::register($this);
 
 // Navbar hides initial content when jumping to in-page anchor
 // https://github.com/twbs/bootstrap/issues/1768

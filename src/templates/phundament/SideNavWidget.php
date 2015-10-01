@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace app\templates\apidoc;
+namespace schmunk42\apidoc\templates\phundament;
 
 use Yii;
 use yii\base\InvalidConfigException;

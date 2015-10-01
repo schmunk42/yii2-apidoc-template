@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace app\templates\apidoc;
+namespace schmunk42\apidoc\templates\phundament;
 
 use Yii;
 use yii\apidoc\helpers\ApiIndexer;
@@ -21,7 +21,7 @@ class GuideRenderer extends \yii\apidoc\templates\html\GuideRenderer
 {
     use RendererTrait;
 
-    public $layout = '@app/templates/apidoc/layouts/guide.php';
+    public $layout = '@vendor/schmunk42/apidoc/templates/phundament/layouts/guide.php';
 
 
     /**
