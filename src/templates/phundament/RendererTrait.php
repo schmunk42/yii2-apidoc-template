@@ -61,7 +61,7 @@ trait RendererTrait
     {
         $extensions = $this->extensions;
         $navClasses = 'app';
-        /*if (isset($type)) {
+        if (isset($type)) {
             if ($type->name == 'Yii') {
                 $navClasses = 'yii';
             } elseif (strncmp($type->name, 'yii\\', 4) == 0) {
@@ -74,7 +74,7 @@ trait RendererTrait
                     }
                 }
             }
-        }*/
+        }
 
         return $navClasses;
     }
@@ -91,7 +91,7 @@ trait RendererTrait
         switch ($navClasses) {
             case 'app':
                 $types = array_filter($types, function ($val) {
-                    return true;
+                    #return true;
                     return strncmp($val->name, 'yii\\', 4) !== 0;
                 });
                 break;
